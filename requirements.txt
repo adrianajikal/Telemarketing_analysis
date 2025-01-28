@@ -1,0 +1,7 @@
+pandas
+streamlit         
+seaborn           
+matplotlib.pyplot 
+timeit  
+PIL                
+io                  
