@@ -156,7 +156,7 @@ def main():
         
         df_xlsx = to_excel(bank)
         st.download_button(label='📥 Download tabela filtrada em EXCEL',
-                            data=df_xlsx ,
+                            data=df_xlsx,
                             file_name= 'bank_filtered.xlsx')
         st.markdown("---")
 
