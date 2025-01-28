@@ -1,7 +1,4 @@
 pandas
 streamlit         
 seaborn           
-matplotlib
-timeit  
-PIL                
-io                  
+matplotlib            
