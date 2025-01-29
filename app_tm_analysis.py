@@ -43,10 +43,6 @@ def to_excel(df):
         df.to_excel(writer, index=False, sheet_name='Sheet1')
     return output.getvalue()  # Retorna o conteúdo do arquivo em memória
 
-
-    return processed_data
-
-
 # Função principal da aplicação
 def main():
     # Configuração inicial da página da aplicação
