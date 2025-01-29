@@ -35,14 +35,14 @@ def convert_df(df):
 
 # Função para converter o df para excel
 @st.cache_data
-df_xlsx = to_excel(bank)
 
-st.download_button(
-    label="📥 Download tabela filtrada em EXCEL",
-    data=df_xlsx,
-    file_name="bank_filtered.xlsx",
-    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-)
+def to_excel(df):
+    output = BytesIO()
+    # Uso do contexto "with" para fechar automaticamente o writer
+    with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+        df.to_excel(writer, index=False, sheet_name='Sheet1')
+    return output.getvalue()  # Retorna o conteúdo do arquivo em memória
+
 
     return processed_data
 
