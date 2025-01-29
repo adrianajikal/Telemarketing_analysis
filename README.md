@@ -105,16 +105,6 @@ O dataset esperado deve conter as seguintes colunas:
 
 ---
 
-## ⚠️ **Requisitos do Dataset**
-Certifique-se de que o dataset segue o padrão esperado. Colunas adicionais serão ignoradas, mas as colunas principais são obrigatórias para que a aplicação funcione corretamente.
-
----
-
-## 📜 **Licença**
-Este projeto é licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais informações.
-
----
-
 ## 🙋‍♂️ **Contribuições**
 Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novas funcionalidades. Basta abrir uma **pull request** ou relatar um problema na seção **Issues** do repositório.
 
